@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+# ${1:IDME}-${2:TICKET}
+## ${3:SHORT_DESCRIPTION}
+[**${1:IDME}-${2:TICKET}**:](https://idmeinc.atlassian.net/browse/${1:IDME}-${2:TICKET})
+***
+&nbsp;
+
+
+## NOTES
+***
+${4:}
+
+		
+***
+FILES:
+```
+
+```
+
+***
+
+## Checklist
+[ ] Tests (Rspec)
+[ ] Changelog
+[ ] Rebase
+
+
+
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>accio-admin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
